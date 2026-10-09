@@ -1,0 +1,1 @@
+robocopy .\dist \\ca-irvfmh-as08\wwwroot\FMHDispatchSetup /s

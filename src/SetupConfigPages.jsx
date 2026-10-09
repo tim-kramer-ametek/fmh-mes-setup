@@ -1,7 +1,6 @@
 import { useState } from "react";
 
-const API_BASE =
-  import.meta.env.VITE_API_BASE_URL || "http://10.100.124.84:5053";
+const API_BASE = "https://ca-irvfmh-as08.ametek.com/SchedulerAPI";
 
 function minuteText(value) {
   if (value == null || value === "") return "";

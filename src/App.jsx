@@ -2,8 +2,7 @@ import { useEffect, useState } from "react";
 import SetupConfigPages from "./SetupConfigPages.jsx";
 import "./App.css";
 
-const API_BASE =
-  import.meta.env.VITE_API_BASE_URL || "http://10.100.124.84:5053";
+const API_BASE = "https://ca-irvfmh-as08.ametek.com/SchedulerAPI";
 const RESOURCE_TYPES = ["Person", "Machine", "Shared", "Other"];
 
 function api(path) {
